@@ -1,0 +1,59 @@
+p {
+	margin: 0;
+}
+
+h2 {
+	margin: 8px 0;
+}
+
+.todoList {
+	display: 'flex';
+	flex-direction: column;
+	justify-content: center;
+	width: 80%;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.todoList-title {
+	text-align: center;
+}
+
+.todo-input {
+	margin-bottom: 10px;
+}
+
+.todo-addButton {
+	background-color: lightblue;
+	border: none;
+	padding: 4px;
+}
+
+.todo-card {
+	border: 1px solid gray;
+	border-radius: 4px;
+	margin: 8px 0;
+	padding: 8px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.todo-status-input {
+	display: flex;
+}
+
+.loading-message {
+	text-align: center;
+	color: grey;
+	margin: 16px 0;
+}
+
+.todo-trashIcon {
+	margin: 16px 8px;
+}
+
+@media screen and (max-width: 600px) {
+	.todoList {
+		width: 88%;
+	}
+}
