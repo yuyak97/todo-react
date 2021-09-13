@@ -4,7 +4,7 @@
 
 ## To start
 
-create .env file
+create .env file for firebase_config.js
 
 `yarn start`
 
