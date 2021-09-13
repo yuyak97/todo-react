@@ -22,6 +22,8 @@ const TodoList = () => {
 				createdAt: firebase.firestore.FieldValue.serverTimestamp(),
 			})
 		}
+
+		setTodoInput('')
 	}
 
 	const toggleStatus = async (todo) => {
